@@ -1,6 +1,6 @@
 # Zomato SQL Project
 
-# Welcome to the Zomato Management System! This project is a comprehensive SQL-based application designed to manage various aspects of a food delivery system, similar to popular platforms like Zomato. The system allows for efficient handling of user details, restaurant information, menu items, orders, and reviews.
+## Welcome to the Zomato Management System! This project is a comprehensive SQL-based application designed to manage various aspects of a food delivery system, similar to popular platforms like Zomato. The system allows for efficient handling of user details, restaurant information, menu items, orders, and reviews.
 
 # Features :
 User Management: Handle user registration, login, and profile management.
