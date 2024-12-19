@@ -14,48 +14,73 @@ The project includes the following tables:
 
 ### Users
 user_id (INT, Primary Key, Auto Increment)
+
 username (VARCHAR)
+
 email (VARCHAR)
+
 phone (VARCHAR)
+
 address (VARCHAR)
 
 ### Restaurants
 restaurant_id (INT, Primary Key, Auto Increment)
+
 name (VARCHAR)
+
 location (VARCHAR)
+
 rating (DECIMAL)
+
 cuisine (VARCHAR)
+
 contact (VARCHAR)
 
 ### Menu_Items
 item_id (INT, Primary Key, Auto Increment)
+
 restaurant_id (INT, Foreign Key)
+
 item_name (VARCHAR)
+
 price (DECIMAL)
+
 description (VARCHAR)
 
 ### Orders
 order_id (INT, Primary Key, Auto Increment)
+
 user_id (INT, Foreign Key)
+
 restaurant_id (INT, Foreign Key)
+
 order_date (DATETIME)
+
 status (ENUM)
+
 total_price (DECIMAL)
 
 ### Order_Items
 order_item_id (INT, Primary Key, Auto Increment)
+
 order_id (INT, Foreign Key)
+
 item_id (INT, Foreign Key)
+
 quantity (INT)
+
 price (DECIMAL)
 
 ### Reviews
 review_id (INT, Primary Key, Auto Increment)
-user_id (INT, Foreign Key)
-restaurant_id (INT, Foreign Key)
-rating (INT)
-comments (TEXT)
 
+user_id (INT, Foreign Key)
+
+restaurant_id (INT, Foreign Key)
+
+rating (INT)
+
+comments (TEXT)
 
 
 ### Contributing
